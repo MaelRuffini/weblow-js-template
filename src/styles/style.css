@@ -1,0 +1,34 @@
+@media (min-width: 1650px) {
+	body {
+		font-size: 16.5px;
+	}
+}
+
+::selection {
+background: #000000;
+color: #FFFFFF;
+text-shadow: none;
+}
+
+input, textarea, select { 
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none; border-radius: 0; 
+	background-image: none; 
+}
+
+.disable-scroll{
+	overflow: hidden;
+}
+
+.transition_wrapper {
+	display: block
+}
+
+.w-editor .transition_content {
+	display: none;
+}
+
+.clickable-off{
+	pointer-events: none;
+}

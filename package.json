@@ -1,0 +1,25 @@
+{
+  "name": "vite-javascript-webflow",
+  "version": "0.0.1",
+  "author": "armandsalle <armand.salle@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rimraf -rf dist",
+    "lint:fix": "eslint ./src --ext .js,.jsx --fix"
+  },
+  "devDependencies": {
+    "jquery": "^3.6.0",
+    "rimraf": "^3.0.2",
+    "vite": "^2.7.2",
+    "vite-plugin-glsl": "^0.1.1"
+  },
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "lil-gui": "^0.16.1",
+    "three": "^0.138.3",
+    "three-orbitcontrols": "^2.110.3"
+  }
+}
