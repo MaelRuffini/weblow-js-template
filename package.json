@@ -18,8 +18,5 @@
   },
   "dependencies": {
     "gsap": "^3.9.1",
-    "lil-gui": "^0.16.1",
-    "three": "^0.138.3",
-    "three-orbitcontrols": "^2.110.3"
   }
 }
